@@ -1,0 +1,27 @@
+{
+  "name": "kreaper",
+  "version": "0.0.1",
+  "description": "Kubernetes objects reaper based on query, rules",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksivamuthu/kreaper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksivamuthu/kreaper/issues"
+  },
+  "homepage": "https://github.com/ksivamuthu/kreaper#readme",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.11.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  }
+}
